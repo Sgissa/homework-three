@@ -1,0 +1,317 @@
+.home {
+    .hero {
+        height: 500px;
+        background-image: url(/images/plane.png);
+        // margin-top: -90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        .hero-title {
+            font-size: 60px;
+            font-family: roboto;
+            color: white;
+            margin-bottom: 16px;
+        }
+
+        .hero-subtext {
+            width: 416px;
+            height: 46px;
+            color: white;
+            font-size: 15px;
+            font-family: robotoI;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+
+
+        .read-more {
+            width: 121px;
+            height: 40px;
+            padding: 10px 20px;
+            background-color: #79addc;
+            color: white;
+        }
+    }
+
+    .promo-trips {
+        width: 850px;
+        height: 304px;
+        // background-color: aquamarine;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+    
+        .trip {
+            width: 263px;
+            height: 304px;
+            background-image: url(/images/Isreal.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            // background-color: aqua;
+            margin-top: -50px;
+            padding-left: 50px;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-family: roboto;
+                color: white;
+                font-size: 60px;
+                padding-top: -50px;
+
+            }
+
+            .sub {
+                font-family: roboto;
+                color: white;
+                font-size: 30px;
+                
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                border-radius: 30px;
+                padding: 10px 27px;
+                background-color: #79addc;
+                color: white;
+                margin-top: 40px;
+                margin-left: 10px;
+
+            }
+        }
+
+
+        .trip2 {
+            width: 263px;
+            height: 304px;
+            background-image: url(/images/usa.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            // background-color: aqua;
+            margin-top: -50px;
+            padding-left: 50px;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-family: roboto;
+                color: white;
+                font-size: 60px;
+                padding-top: -50px;
+
+            }
+
+            .sub {
+                font-family: roboto;
+                color: white;
+                font-size: 30px;
+
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                border-radius: 30px;
+                padding: 10px 27px;
+                background-color: #79addc;
+                color: white;
+                margin-top: 40px;
+                margin-left: 10px;
+
+            }
+        }
+
+
+        .trip3 {
+            width: 263px;
+            height: 304px;
+            background-image: url(/images/austraila.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            // background-color: aqua;
+            margin-top: -50px;
+            padding-left: 50px;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+
+            .tour3 {
+                font-family: roboto;
+                color: white;
+                font-size: 60px;
+                padding-top: -50px;
+                // background-color: aquamarine;
+                margin-left: -48px;
+
+            }
+
+            .sub {
+                font-family: roboto;
+                color: white;
+                font-size: 30px;
+
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                border-radius: 30px;
+                padding: 10px 27px;
+                background-color: #79addc;
+                color: white;
+                margin-top: 40px;
+                margin-left: 10px;
+
+            }
+        }
+    
+        
+    }
+    
+    .booking {
+        min-height: 900px;
+        // background-color: darkcyan;
+        padding: 50px;
+
+
+        .booking-wrapper {
+            max-width: 370px;
+            height: 60px;
+            margin: 0 auto;
+            margin-left: 175px;
+            // background-color: pink;
+            
+            h1{
+                font-size: 60px;
+                font-family: robotoi;
+            }
+        }
+
+        .info-inputs {
+            width: 818px;
+            height: 136px;
+            // background-color: blue;
+
+            .input1 {
+                width: 344px;
+                height: 58px;
+                border: solid #79addc;
+                padding-left: 20px;
+            }
+
+            .input2 {
+                width: 453px;
+                height: 58px;
+                border: solid #79addc;
+                padding-left: 20px;
+                margin-left: 17px;
+            }
+
+            .input3 {
+                width: 344px;
+                height: 58px;
+                border: solid #79addc;
+                padding-left: 20px;
+                margin-top: 20px;
+            }
+
+            .input4 {
+                width: 453px;
+                height: 58px;
+                border: solid #79addc;
+                padding-left: 20px;
+                margin-left: 17px;
+            }
+
+
+        }
+
+        .longinput {
+            width: 818px;
+            height: 58px;
+            // background-color: aquamarine;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            label {
+                width: 63px;
+                height: 20px;
+                // background-color: blueviolet;
+                font-family: roboto-light;
+            }
+
+            input {
+                width: 698px;
+                height: 58px;
+                border: solid #79addc;
+                padding-left: 20px;
+
+            }
+        }
+        .shortgang {
+            display: flex;
+            justify-content: space-between;
+            width: 818px;
+            height: 58px;
+            // background-color: aqua;
+
+            .shortinputs {
+                
+                margin-top: 20px;
+                margin-bottom: 20px;
+    
+                label {
+                    width: 63px;
+                    height: 20px;
+                    // background-color: blueviolet;
+                    font-family: roboto-light;
+                }
+    
+                input {
+                    width: 103px;
+                    height: 58px;
+                    border: solid #79addc;
+                    padding-left: 20px;
+    
+                }
+    
+            }
+        }
+
+        .textboxm {
+            margin-top: 40px;
+            width: 818px;
+            min-height: 192px;
+            // background-color: bisque;
+            margin-bottom: 37px;
+        
+            .mtext {
+                width: 818px;
+                height: 192px;
+                border: solid #79addc;
+            }
+            
+        }
+        
+
+        .booking-submit {
+            @include site-button;
+            width: 813px;
+            height: 60px;
+        }
+
+    }
+ 
+}
+
+
+
